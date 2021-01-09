@@ -1,4 +1,4 @@
-export class Car{
+class Car{
     private gasAmount: number;
     private capacity: number;
 
@@ -19,3 +19,5 @@ export class Car{
         this.gasAmount = this.capacity;
     }
 }
+
+export { Car };

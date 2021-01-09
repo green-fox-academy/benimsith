@@ -1,5 +1,5 @@
-import {Car} from "./Car";
- export class Station {
+import { Car } from "./Car";
+class Station {
     private gasAmount: number;
 
     constructor(gasAmount: number) {
@@ -9,7 +9,7 @@ import {Car} from "./Car";
     public refill(car: Car) {
         this.gasAmount = this.gasAmount - car.getCapacity;
         car.setGasAmount;
-
+        return this.gasAmount;
     }
 
     public get getGasAmount(): number {
@@ -17,3 +17,5 @@ import {Car} from "./Car";
     }
 
 }
+
+export { Station };

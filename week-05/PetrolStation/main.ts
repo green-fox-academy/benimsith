@@ -1,5 +1,5 @@
 import { Car } from "./Car";
-import {Station} from "./Station"
+import { Station } from "./Station"
 
 let car = new Car();
 let station = new Station(1000);
