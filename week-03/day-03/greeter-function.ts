@@ -3,7 +3,7 @@
 //     -  Greeting is printing e.g. `Greetings, dear Green Fox`
 // -  Greet `nameToGreet`
 
-let nameToGreet : string = 'Green Fox';
+let nameToGreet: string = 'Green Fox';
 
 function greet(content : string){
   return 'Greeting, dear' + content; 
