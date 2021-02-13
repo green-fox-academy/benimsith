@@ -1,6 +1,6 @@
 //export { Person };
 
- export class Person {
+  class Person {
   name: string;
   age: number;
   gender: string;
@@ -20,3 +20,5 @@
   }
     
 }
+
+export { Person };

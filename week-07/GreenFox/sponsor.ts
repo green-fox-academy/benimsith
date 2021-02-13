@@ -1,4 +1,4 @@
-import { Person } from './GreenFox/person';
+import { Person } from './person';
 export class Sponsor extends Person{
   company: string;
   hiredStudents: number;

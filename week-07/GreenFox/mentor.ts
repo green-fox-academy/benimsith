@@ -1,4 +1,4 @@
-import { Person } from './GreenFox/person'
+import { Person } from './person'
 export class Mentor extends Person{
   level: string;
 

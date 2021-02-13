@@ -1,5 +1,5 @@
 
-import { Person } from './GreenFox/person' ;
+import { Person } from './person' ;
 
  export class Student extends Person{
    previousOrganization: string;
