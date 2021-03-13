@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    height: 300px;
+    width:auto;
+    background-color: yellow;
+    align-items: center;
+    justify-content: center;
+}
+
+.item{
+    width: 100px;
+    height: 100px;
+}
+.purple{
+    background-color: purple;
+    position: absolute;
+}

@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.container{
+    background-color: wheat;
+    width: 90%;
+    height: 100vh;
+    margin: auto;
+}
+
+header{
+    background-color: purple;
+    display: flex;
+    height: 50px;
+    width:100%;
+}
+
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+    height: 30px;
+    width: 120px;
+    margin: 5px;
+    background-color: cyan;
+}
+
+.content{
+    display: flex;
+    height: 100%;
+}
+
+.right{
+    background-color: greenyellow;
+    flex-grow: 1;
+}
+
+.left{
+    background-color: orange;
+    flex-grow: 2;
+}
