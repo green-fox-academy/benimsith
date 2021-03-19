@@ -1,0 +1,22 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    background: purple;
+    width: 80%;
+    height: 80px;
+    display: flex;
+    position: fixed;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    list-style: none;
+    height: 30px;
+    
+}

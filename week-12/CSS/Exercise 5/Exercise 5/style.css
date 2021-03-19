@@ -1,0 +1,62 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+
+.container{
+    width: 80%;
+    height: 100vh;
+    background-color: white;
+    margin: auto;
+
+}
+
+header{
+    width: 80%;
+    height: 80px;
+    background-color: aqua;
+    display: flex;
+    position: fixed;
+
+}
+
+.content{
+    display: flex;
+    height: 90%;
+}
+
+.leftside{
+    background-color: orange;
+    margin-right: 20px;
+    flex-grow: 1;
+}
+
+.main{
+    background-color: red;
+    flex-grow: 2;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+
+.blackbox{
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.rightside{
+    background-color: purple;
+    margin-left: 20px;
+    flex-grow: 1;
+     
+}
+
+footer{
+    height: 80px;
+    background-color: blue;
+}
