@@ -3,20 +3,129 @@
     padding: 0%;
 }
 
+.container{
+    background-color: white;
+    max-width:100vw;
+    width: 100%;
+    margin:   auto;
+}
+
 header{
     background: purple;
-    width: 80%;
+    width: 100%;
     height: 80px;
     display: flex;
     position: fixed;
+    align-items: center;
+    justify-content: space-between;
 }
 
 ul{
     display: flex;
+    align-items: center;
 }
 
-li{
-    list-style: none;
+.leftlink{
+    background-color: aqua;
     height: 30px;
+    width: 80px;
+    margin-left: 10px;
+    list-style: none;
+}
+
+.rightlink{
+    background-color: aqua;
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    list-style: none;
+}
+
+.content{
+    display: flex;
+    height: 100vh;
+}
+
+.leftside{
+    background-color: darkgoldenrod;
+    flex-grow: 2;
+    width: auto;
+}
+
+.top{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 80px;
+}
+
+.boxline{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 20px;
+}
+
+.redbox{
+    background-color: red;
+    width: 80px;
+    height: 80px;
     
 }
+
+.bottom{
+   display: flex;
+   margin-left: 10px;
+   margin-right: 10px;
+   justify-content: space-between; 
+}
+
+.bottom div :nth-of-type(1){
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.rightside{
+    background-color: rgb(40, 255, 40);
+    flex-grow: 1;
+}
+
+.purpleboxes{
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.purplebox{
+    background-color: mediumpurple;
+    width: 150px;
+    margin: 10px;
+    height: 30px;
+    list-style: none;
+    margin-top: 5px;
+
+}
+
+.righttext{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.righttext div:nth-of-type(1){
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p{
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
