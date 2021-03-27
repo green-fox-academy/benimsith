@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click Three Times</title>
+</head>
+<body>
+    <button>Click me dude</button>
+    <p></p>
+    
+    <script>
+        const button = document.querySelector('button');
+        const p = document.querySelector('p');
+        let counter = 0;
+
+        button.addEventListener('click',()=>{
+            counter++;
+        });
+
+        setTimeout(() =>{
+            if(counter > 2){
+                p.innerHTML = ` 5 seconds elapsed and clicked ${counter} times`;
+            }
+        },5000)
+
+    </script>
+</body>
+</html>
