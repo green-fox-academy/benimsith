@@ -1,0 +1,54 @@
+*{
+    text-align:left;
+}
+
+body{
+    background-color:rgb(59, 59, 219);
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+table{
+    background-color: grey;
+    width: 80vw;
+    height: 80vh;
+    border-collapse: collapse;
+    font-size: xx-large;
+}
+
+thead{
+    background-color: black;
+    color: rgb(201, 201, 201);
+    border-bottom: 6px solid rgb(185,185,185);
+    border-collapse: collapse;
+    width: 10vw;
+    height: 10vh;
+
+}
+
+tbody{
+    color: rgb(88, 88, 88);
+}
+
+tr{
+    border: 2px solid rgb(185, 185, 185);
+    border-collapse: collapse;
+    width:10vw;
+    height:10vh;
+
+}
+
+td{
+    border: 2px solid rgb(185, 185, 185);
+    border-collapse: collapse;
+}
+
+td[data-currency='usd']::before{
+    content: '$';
+}
+
+tbody tr:nth-child(odd) {
+    background-color: lightgrey;
+}
+

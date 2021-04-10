@@ -1,0 +1,50 @@
+
+.container{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    background-color: rgb(32, 32, 75);
+    height:100vh;
+    width:100vw;
+}
+
+button{
+    border-radius: 10px;
+    width: 200px;
+    height: 60px;
+    border-style: none;
+    font-size:large;
+}
+
+
+
+.red{
+    background-color: red;
+    box-shadow: 0 10px 0 0;
+}
+
+.blue{
+    background-color: blue;
+    box-shadow: 0 10px 0 0;
+}
+
+.green{
+    background-color:green;
+    box-shadow: 0 10px 0 0;
+}
+
+button:hover{
+    opacity: 0.9;
+}
+
+button:focus{
+    outline:none;
+    border: none;
+    opacity: 1;
+}
+
+button:active{
+    outline:none;
+    border: none;
+    opacity: 1.1;
+}
