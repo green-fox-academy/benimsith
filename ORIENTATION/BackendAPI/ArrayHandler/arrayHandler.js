@@ -1,6 +1,6 @@
 const express = require('express');
 const path = require('path');
-const bodyParser = require('body-parser');
+//const bodyParser = require('body-parser');
 const app = express();
 const PORT = 4000;
 
@@ -12,7 +12,7 @@ app.listen(PORT, ()=>{
 function sum (array){
     let sum = 0;
     for(let i=0; i<array.length; i++){
-        sum += numbers[i];
+        sum += array[i];
     }
     return sum;
 };
@@ -35,15 +35,15 @@ app.post('/arrays', (req, res) =>{
     let result;
     if(what ==='sum'){
         result = {
-            result : sum([numbers]),
+            result : sum(numbers),
         };
     }else if(what ===multiply){
         result ={
-            result : multi([numbers]),
+            result : multi(numbers),
         };
     }else if(what === doubler){
         result = {
-            result : doubler([numbers]),
+            result : doubler(numbers),
         };
     }else {
         result ={
